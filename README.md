@@ -1,12 +1,9 @@
 # Ailit Tool 公开下载
 
-当前最新版：**v0.9.0-test.17**
+当前最新版：**v0.9.0-test.20**
 
-- [下载 Windows 安装器](https://github.com/hamikoyang8-ui/ailit-tool-releases/releases/download/v0.9.0-test.17/Ailit-Tool-Setup-v0.9.0-test.17.exe)
-- [查看 test17 发布说明](https://github.com/hamikoyang8-ui/ailit-tool-releases/releases/tag/v0.9.0-test.17)
-- SHA-256：`A8A0B3EC7D9BF5DD5D03077FC7D1B9235C3FD8834685C34B21C2C2BC3E2CFF51`
+- [下载 Windows 安装器](https://github.com/hamikoyang8-ui/ailit-tool-releases/releases/download/v0.9.0-test.20/Ailit-Tool-Setup-v0.9.0-excel-image-test.20.exe)
+- [查看 TEST20 发布说明](https://github.com/hamikoyang8-ui/ailit-tool-releases/releases/tag/v0.9.0-test.20)
+- SHA-256：`8CCB4F4A522DA1AEDE25686485B562231D18658C77573015E37790E3062B5BF7`
 
-安装器适用于 Windows x64。历史版本保留在 Releases 页面。C:\Users\i\xwechat_files\N929096123_7e0f\msg\file\2026-08 里面有个test7的版本里面是刚做好和测试号图片下载.你对一下图片下载这个模块
-本机实装的是18test做了一个大修复,但是不确定都修复好了.本地统一发布也是test18不要用错版本了.
-1.商品上传页面滑动拖拽的时候有点卡.还有就是你改了页面里面的小滑动但是数据拖拽部分原来是锁定的,左侧拖拽栏做悬浮的跟随滚动行不行.2.图片下载为什么变成了webp,初始版本一个是用的原生接口 我下载的都是png,你修复反而变成了webp.我不喜欢这样越改越多bug。3,快速输入点第一下会失焦会弹出来,这个要所有的排查一下.对比两个版本的调拨盘点模块,最新版有没有被改错了,盘点调拨不是像销售单一样没搜索到掉入原生,还是会弹出新增商品,然后过2-3秒会跳出原生的候选。检查一下为什么先跳新增商品，原生是有候选点击的。4.test17，现在是18 我测试了早一个版本17会出现旧版的蓝色悬浮弹窗，这部分是 为什么是没叫你删除还是没屏蔽完整，我不想用一半旧代码跑出来你用test18 去检查一下5.销售单同步会出现不点智慧记不同步，然后我测试电脑速度正常，但是我的其他电脑是有点慢的，排查一下逻辑，如果是网络和性能问题则不改。如果能优化就优化，用原生的接口。6.从商品图片下载到商品图片上传，这个过程会读取分类识别，我看到分类失败的点是插件想从右下角的20/页改到100/页失败了这个优化一下。  所有的做最小修复不改动原本测试好的功能！！！！
-
+安装器适用于 Windows x64。公开仓库只保留当前下载信息；开发任务、客户数据和内部排查说明不得写入本仓库。
